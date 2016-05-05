@@ -1,0 +1,272 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                android:paddingTop="@dimen/activity_vertical_margin"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                tools:context="cs.byu.edu.familymaps.SettingsActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/life_story_settings_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/text"
+                android:textSize="25dp"
+                android:text="@string/life_story_settings"/>
+
+            <TextView
+                android:id="@+id/life_story_settings_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/life_story_settings_text"
+                android:textColor="@color/gray"
+                android:textSize="15dp"
+                android:text="@string/life_story_settings_description"/>
+
+            <Spinner
+                android:id="@+id/life_story_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/life_story_switch"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+            <Switch
+                android:id="@+id/life_story_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/life_story_settings_text"
+                android:textSize="12dp"
+                android:showText="true"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/life_story_settings_description_text"
+                android:background="@color/gray"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/family_tree_settings_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/text"
+                android:textSize="25dp"
+                android:text="@string/family_tree_settings"/>
+
+            <TextView
+                android:id="@+id/family_tree_settings_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/family_tree_settings_text"
+                android:textColor="@color/gray"
+                android:textSize="15dp"
+                android:text="@string/family_tree_settings_description"/>
+
+            <Spinner
+                android:id="@+id/family_tree_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/family_tree_switch"
+                android:layout_centerInParent="true"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+            <Switch
+                android:id="@+id/family_tree_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/family_tree_settings_text"
+                android:textSize="12dp"
+                android:showText="true"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/family_tree_settings_description_text"
+                android:background="@color/gray"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/spouse_settings_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:textColor="@color/text"
+                android:textSize="25dp"
+                android:text="@string/spouse_settings"/>
+
+            <TextView
+                android:id="@+id/spouse_settings_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/spouse_settings_text"
+                android:textColor="@color/gray"
+                android:textSize="15dp"
+                android:text="@string/spouse_settings_description"/>
+
+            <Spinner
+                android:id="@+id/spouse_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@+id/spouse_switch"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+            <Switch
+                android:id="@+id/spouse_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@+id/spouse_settings_text"
+                android:textSize="12dp"
+                android:showText="true"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/spouse_settings_description_text"
+                android:background="@color/gray"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/map_type_settings_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:textSize="25dp"
+                android:text="@string/map_type_settings"/>
+
+            <TextView
+                android:id="@+id/map_type_settings_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/map_type_settings_text"
+                android:textColor="@color/gray"
+                android:textSize="15dp"
+                android:text="@string/map_type_settings_description"/>
+
+            <Spinner
+                android:id="@+id/map_type_spinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@android:drawable/btn_dropdown"
+                android:spinnerMode="dropdown"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/map_type_settings_description_text"
+                android:background="@color/gray"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/resync_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:textSize="25dp"
+                android:text="@string/resync_settings"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/resync_settings_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/resync_button"
+                android:textColor="@color/gray"
+                android:textSize="15dp"
+                android:text="@string/resync_settings_description"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/resync_settings_description_text"
+                android:background="@color/gray"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/logout_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/text"
+                android:textSize="25dp"
+                android:text="@string/logout_settings"
+                android:clickable="true"/>
+
+            <TextView
+                android:id="@+id/logout_settings_description_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/logout_button"
+                android:textColor="@color/gray"
+                android:textSize="15dp"
+                android:text="@string/logout_settings_description"/>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/logout_settings_description_text"
+                android:background="@color/gray"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

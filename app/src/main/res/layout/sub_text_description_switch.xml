@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="55dip"
+                android:orientation="vertical"
+                android:padding="5dp">
+
+    <TextView
+        android:id="@+id/filter_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textColor="@color/text"
+        android:textSize="20dp"/>
+
+    <TextView
+        android:id="@+id/filter_item_description_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/filter_item_text"
+        android:textColor="@color/gray"
+        android:textSize="10dp"/>
+
+    <Switch
+        android:id="@+id/filter_item_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerInParent="true"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/filter_item_description_text"
+        android:background="@color/gray"/>
+
+</RelativeLayout>

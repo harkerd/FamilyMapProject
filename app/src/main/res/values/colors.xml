@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources name="thing">
+    <item name="standard" type="color">#FFFFFFFF</item>
+    <item name="text" type="color">#333333</item>
+    <item name="android" type="color">#A4C639</item>
+    <item name="female" type="color">#FFB6C1</item>
+    <item name="male" type="color">#89CFF0</item>
+    <item name="gray" type="color">#999999</item>
+</resources>

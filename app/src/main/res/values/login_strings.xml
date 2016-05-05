@@ -1,0 +1,8 @@
+<resources>
+    <string name="username_text">Username</string>
+    <string name="password_text">Password</string>
+    <string name="host_text">Server Host</string>
+    <string name="port_text">Server Port</string>
+    <string name="login_button">Login</string>
+    <string name="invalid_login">Invalid username or password</string>
+</resources>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Family Map</string>
+    <string name="title_activity_person">Family Map: Person Details</string>
+    <string name="title_activity_search">Family Map: Search</string>
+    <string name="title_activity_filter">Family Map: Filter</string>
+    <string name="title_activity_settings">Family Map: Settings</string>
+    <string name="top">Go To Top</string>
+    <string name="back">back</string>
+
+</resources>

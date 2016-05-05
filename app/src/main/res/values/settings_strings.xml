@@ -1,0 +1,39 @@
+<resources>
+    <string name="life_story_settings">Life Story Lines</string>
+    <string name="life_story_settings_description">SHOW LIFE STORY LINES</string>
+
+    <string name="family_tree_settings">Family Tree Lines</string>
+    <string name="family_tree_settings_description">SHOW TREE LINES</string>
+
+    <string name="spouse_settings">Spouse Lines</string>
+    <string name="spouse_settings_description">SHOW SPOUSE LINES</string>
+
+    <string name="map_type_settings">Map Type</string>
+    <string name="map_type_settings_description">SELECT THE MAP\'S BACKGROUND DISPLAY</string>
+
+    <string name="resync_settings">Re-sync Data</string>
+    <string name="resync_settings_description">FROM FAMILYMAP SERVICES</string>
+
+    <string name="logout_settings">Logout</string>
+    <string name="logout_settings_description">RETURNS TO LOGIN SCREEN</string>
+
+    <string-array name="colors">
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Purple</item>
+        <item>Orange</item>
+        <item>Cyan</item>
+        <item>Azure</item>
+        <item>Rose</item>
+        <item>Magenta</item>
+    </string-array>
+
+    <string-array name="mapType">
+        <item>Normal</item>
+        <item>Hybrid</item>
+        <item>Satellite</item>
+        <item>Terrain</item>
+    </string-array>
+</resources>

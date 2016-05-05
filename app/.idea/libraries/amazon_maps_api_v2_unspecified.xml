@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="amazon-maps-api-v2-unspecified">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/FamilyMaps/amazon-maps-api-v2/unspecified/jars/libs/MapsAPIDelegateLibrary.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/FamilyMaps/amazon-maps-api-v2/unspecified/jars/classes.jar!/" />
+      <root url="jar://$PROJECT_DIR$/build/intermediates/exploded-aar/FamilyMaps/amazon-maps-api-v2/unspecified/jars/libs/MapsAPISupportLibrary.jar!/" />
+      <root url="file://$PROJECT_DIR$/build/intermediates/exploded-aar/FamilyMaps/amazon-maps-api-v2/unspecified/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

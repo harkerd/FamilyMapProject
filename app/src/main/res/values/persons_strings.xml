@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="first_name_description">FIRST NAME</string>
+    <string name="last_name_description">LAST NAME</string>
+    <string name="gender_description">GENDER</string>
+    <string name="life_events_title">LIFE EVENTS</string>
+    <string name="family_title">FAMILY</string>
+
+</resources>
